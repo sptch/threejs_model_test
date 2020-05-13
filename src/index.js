@@ -32,7 +32,7 @@ return(
 const Ravine = () => {
   const [model, setModel] = useState()
   useEffect(() => {
-      new GLTFLoader().load('1924-lowpoly.gltf', setModel)
+      new GLTFLoader().load('ravine.gltf', setModel)
   }, [])
 
   return (
