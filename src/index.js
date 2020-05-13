@@ -70,12 +70,12 @@ function Box(props) {
 }
 
 ReactDOM.render(
-  <Canvas camera = {{position:[7.8,0,70]}}>
+  <Canvas camera = {{position:[7.8,0,30]}}>
     
     <Controls />
     <ambientLight color={'White'} intensity={.8}/>
     <directionalLight position={[0, 0, 60]} penumbra={1} intensity={0.2}/>
-    <fog attach="fog" args={['#d1d1d1',50,100]}/>
+    <fog attach="fog" args={['#d1d1d1',-10,100]}/>
     <Box position={[7.8, 8, 10.5]} />
     <Box position={[20, 8, -2]} />
     <Ravine />
