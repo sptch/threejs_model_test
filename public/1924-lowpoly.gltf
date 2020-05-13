@@ -50,7 +50,12 @@
         },
         {
             "mesh" : 0,
-            "name" : "Object_1"
+            "name" : "Object_1",
+            "translation" : [
+                0,
+                -9.849227905273438,
+                0
+            ]
         },
         {
             "children" : [
